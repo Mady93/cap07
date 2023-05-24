@@ -5,6 +5,7 @@ import { ChildComponent } from '../child/child.component';
   template:  `<app-child>
   <h1>{{ title }}</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <app-random></app-random>
 </app-child>`,
   styles: [
   ]
